@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coguar - Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 46rem;
+    margin: 0 auto;
+    padding: 2.5rem 1.25rem 5rem;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #1a1a1a;
+    background: #fff;
+  }
+  h1 { font-size: 1.9rem; margin: 0 0 .35rem; letter-spacing: -.01em; }
+  h2 { font-size: 1.15rem; margin: 2.4rem 0 .6rem; letter-spacing: -.005em; }
+  h3 { font-size: 1rem; margin: 1.5rem 0 .4rem; }
+  .meta { color: #666; font-size: .9rem; margin: 0 0 2rem; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .93rem; }
+  th, td { text-align: left; padding: .55rem .6rem; border-bottom: 1px solid #e3e3e3; vertical-align: top; }
+  th { font-weight: 600; background: #fafafa; }
+  ul { padding-left: 1.2rem; }
+  li { margin: .3rem 0; }
+  code { font-size: .9em; background: #f2f2f2; padding: .1rem .3rem; border-radius: 3px; }
+  a { color: #0b64d0; }
+  .callout {
+    border-left: 3px solid #0b64d0;
+    background: #f5f9ff;
+    padding: .85rem 1rem;
+    margin: 1.2rem 0;
+    border-radius: 0 4px 4px 0;
+  }
+  footer { margin-top: 3.5rem; padding-top: 1.2rem; border-top: 1px solid #e3e3e3; color: #666; font-size: .9rem; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e6e6; background: #16181c; }
+    .meta, footer { color: #9aa0a6; }
+    th { background: #1e2126; }
+    th, td, footer { border-color: #2c3036; }
+    code { background: #22262c; }
+    a { color: #6fa8ff; }
+    .callout { background: #17222f; border-left-color: #6fa8ff; }
+  }
+</style>
+</head>
+<body>
+
+<h1>Coguar - Privacy Policy</h1>
+<p class="meta">Effective 16 August 2026. Last updated 16 August 2026.</p>
+
+<p>Coguar is a screen-time and focus app for Android, published by KoeKak ("we", "us"). This policy explains what the app collects, what it deliberately does not collect, and what you can ask us to do with it.</p>
+
+<div class="callout">
+  <strong>The short version.</strong> Your screen time, the apps you track, and everything Coguar reads on screen stay on your phone. What leaves the phone is a small set of technical and usage signals tied to an anonymous device identifier, plus crash reports, plus any review you choose to send us. We do not run ads, we do not sell data, and we never ask for your name, email, phone number, or accounts.
+</div>
+
+<h2>1. What never leaves your device</h2>
+<p>The core of what Coguar does is local. The following is stored only on your phone and is never uploaded to us or to anyone else:</p>
+<ul>
+  <li>Your screen time and app usage statistics, including per-app and per-day totals.</li>
+  <li>Everything the accessibility service reads on screen. The service inspects on-screen structure to tell one part of an app from another (a Reels tab from a chat, for example). The content you view is not recorded, not stored, and not transmitted.</li>
+  <li>The list of apps you chose to track, their protection levels, time budgets, schedules, and every other setting.</li>
+  <li>Focus and sleep sessions, and their history.</li>
+</ul>
+<p>Uninstalling Coguar removes all of it.</p>
+
+<h2>2. What we collect</h2>
+
+<h3>2.1 Anonymous device identifier</h3>
+<p>Coguar generates or reads a stable, anonymous device identifier (the Android <code>ANDROID_ID</code>, with a random identifier as fallback). It is not linked to your name, email, phone number, or any account, and we make no attempt to identify you through it. It exists so analytics and a submitted review can be recognised as coming from the same installation.</p>
+
+<h3>2.2 Device and app technical facts</h3>
+<p>Manufacturer, device model, Android version and API level, screen size, screen density, system font scale, and the Coguar version and build type. These segment usage and crash reports so we can tell whether a problem affects one device family or everyone.</p>
+
+<h3>2.3 Usage analytics</h3>
+<p>A small, fixed set of events, listed here in full:</p>
+<table>
+  <tr><th>Event</th><th>What it carries</th></tr>
+  <tr><td>Screen opened</td><td>The name of the Coguar screen you opened</td></tr>
+  <tr><td>Permission requested / answered</td><td>Which Android permission, and whether it was granted</td></tr>
+  <tr><td>Onboarding progress</td><td>That onboarding started, finished, and how many permissions were granted out of the total</td></tr>
+  <tr><td>Focus or sleep mode used</td><td>The preset chosen, whether strict mode was on, the do-not-disturb setting, durations, completed repetitions</td></tr>
+  <tr><td>Activation</td><td>That setup completed and a first app was tracked. Carries no other detail</td></tr>
+  <tr><td>Unsupported language</td><td>Your device language, plus the package name of one app you already chose to track and which of its sections could not be offered</td></tr>
+</table>
+<p>The last event needs an explanation, because it is the only one that names another app. Coguar recognises sections inside other apps by their on-screen wording, which has to be verified language by language. If you run a language we have not verified, the relevant switches are hidden rather than shown broken, and this event reports which language and which section that was. It is the only way we learn which languages to support next. It is sent at most once per app section per app launch, it names only apps you deliberately added to Coguar, and it does not enumerate the apps installed on your device.</p>
+
+<h3>2.4 Crash reports and diagnostics</h3>
+<p>When Coguar crashes or misbehaves, we receive a crash report: stack trace, device state at the time, and the technical facts listed in 2.2.</p>
+
+<h3>2.5 Reviews you send</h3>
+<p>If you open the review form inside Coguar and submit it, we receive the star rating, the comment you typed, the app version, your device model, your Android version, and the anonymous identifier from 2.1. Nothing is sent unless you press submit. Please do not put personal information into the comment field.</p>
+
+<h2>3. Why we collect it</h2>
+<table>
+  <tr><th>Data</th><th>Purpose</th></tr>
+  <tr><td>Anonymous identifier, technical facts</td><td>App functionality, analytics</td></tr>
+  <tr><td>Usage analytics</td><td>Analytics: understanding which features are used and where setup fails</td></tr>
+  <tr><td>Unsupported-language event</td><td>Analytics: deciding which languages to support next</td></tr>
+  <tr><td>Crash reports</td><td>Analytics and stability: finding and fixing defects</td></tr>
+  <tr><td>Reviews</td><td>Customer support and product feedback</td></tr>
+</table>
+<p>None of this data is used for advertising, profiling, or automated decisions about you. We do not sell it, rent it, or share it with third parties for their own purposes.</p>
+
+<h2>4. Who processes the data</h2>
+<p>We use Google Firebase (Google Ireland Limited and Google LLC) as a processor acting on our instructions:</p>
+<ul>
+  <li><strong>Firebase Analytics</strong> for the events in 2.3.</li>
+  <li><strong>Firebase Crashlytics</strong> for the crash reports in 2.4.</li>
+  <li><strong>Cloud Firestore</strong> for the reviews in 2.5.</li>
+</ul>
+<p>Data is transmitted over encrypted connections and may be processed on servers outside your country, including in the United States, under Google's standard contractual clauses. Google's own privacy terms are at <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>.</p>
+
+<h2>5. Permissions and what they are for</h2>
+<table>
+  <tr><th>Permission</th><th>Why Coguar asks</th></tr>
+  <tr><td>Accessibility service</td><td>To recognise sections inside the apps you track, such as Reels or Shorts, so the ones you chose can be blocked. See section 6</td></tr>
+  <tr><td>Usage access</td><td>To measure your screen time. The measurements stay on the device</td></tr>
+  <tr><td>Display over other apps</td><td>To draw the blocking screen on top of a blocked app</td></tr>
+  <tr><td>Do not disturb access</td><td>To silence the phone during sleep and focus sessions, if you turn that on</td></tr>
+  <tr><td>Notifications</td><td>To show session status, warnings, and alarms</td></tr>
+  <tr><td>Alarms and reminders</td><td>To start and end scheduled sessions at the right time</td></tr>
+  <tr><td>Run at startup</td><td>To restore your schedules and protection after a reboot</td></tr>
+</table>
+<p>Every one of these is optional in the sense that you can decline or revoke it in Android settings. Declining one disables the feature that depends on it.</p>
+
+<h2>6. The accessibility service</h2>
+<p>Coguar uses Android's accessibility service for one purpose: to tell which section of a tracked app is currently on screen, so that blocking can apply to that section and not to the whole app. This works by inspecting the structure and labels of the current screen.</p>
+<p>The service does not record what you read, watch, type, or send. It does not capture the screen, does not log message contents, and transmits nothing about the content you view. The only thing derived from it that ever leaves the device is described in 2.3 under "unsupported language", and that carries a language code and an app package name, never content.</p>
+<p>The service is off by default. You turn it on yourself in Android settings and can turn it off at any time in the same place.</p>
+
+<h2>7. Children</h2>
+<p>Coguar is not directed at children under 13, and we do not knowingly collect data from them. If you believe a child has sent us a review containing personal information, contact us and we will delete it.</p>
+
+<h2>8. Retention</h2>
+<p>Analytics events and crash reports are retained by Firebase under its default retention windows, currently up to 14 months for analytics and 90 days for crash reports. Reviews are kept until we no longer need them for support, or until you ask us to delete yours.</p>
+
+<h2>9. Your rights</h2>
+<p>Depending on where you live, you may have the right to access, correct, delete, or export the data we hold, and to object to or restrict its processing. Write to us at the address below and we will act on it.</p>
+<p>Because the data is tied only to an anonymous device identifier, we may need you to tell us that identifier or the approximate date and text of your review in order to locate your records. If we cannot identify the data as yours, we cannot delete it.</p>
+<p>You can stop all further collection at any time by uninstalling Coguar.</p>
+
+<h2>10. Changes to this policy</h2>
+<p>If we change what we collect or why, we will update this page and move the "last updated" date at the top. Material changes will also be announced in the app.</p>
+
+<h2>11. Contact</h2>
+<p>Questions, deletion requests, or complaints: <a href="mailto:koekak.contact@gmail.com">koekak.contact@gmail.com</a>.</p>
+
+<footer>
+Coguar. This policy covers the Coguar Android app published on Google Play under the package <code>com.koekak.coguar</code>.
+</footer>
+
+</body>
+</html>
